@@ -1,9 +1,27 @@
-/* *{
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-} */
+}
 
+/* all pages */
+body{
+    padding: 5px;
+}
+.article-font{
+    font-size: 20px;
+}
+
+/* palette */
+.picton-blue{
+    color: #2bade6;
+}
+
+.gray{
+    color: #8e8e8e
+}
+
+/* header */
 header{
     background-image: url(../img/pattern.png);
     background-color: #4ea0ff;
@@ -16,7 +34,12 @@ img.logo-banner{
     padding-left: 20px;
 }
 
-
+/* section */
 h1{
     font-size: 3em;
+}
+
+section .authorship-information{
+    font-size: 22px;
+    font-weight: 600;
 }
