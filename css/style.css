@@ -4,10 +4,19 @@
     box-sizing: border-box;
 }
 
-/* all pages */
-body{
-    padding: 5px;
+/* general */
+header, section.title-article, figure, article>p, article ul, article table{
+    margin-bottom: 20px;
 }
+
+ul{
+    padding: 30px;
+}
+
+.container{
+    margin: 5px;
+}
+
 .article-font{
     font-size: 20px;
 }
@@ -31,7 +40,6 @@ header{
 img.logo-banner{
     margin-top: 50px;
     width: 350px;
-    padding-left: 20px;
 }
 
 /* section */
