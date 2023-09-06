@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general */
+header, section.title-article, figure, article>p, article ul, article table{
+    margin-bottom: 20px;
+}
+
+ul{
+    padding: 30px;
+}
+
+.container{
+    width: 80%;
+    margin:auto;
+}
+
+.article-font{
+    font-size: 20px;
+}
+
+/* palette */
+.highlights{
+    background-color: yellow;
+}
+
+.picton-blue{
+    color: #2bade6;
+}
+
+.gray{
+    color: #8e8e8e
+}
+
+.white{
+    color: white;
+}
+
+/* header */
+header{
+    background-image: url(../img/pattern.png);
+    background-color: #4ea0ff;
+    background-size: 30%;
+}
+
+img.logo-banner{
+    margin-top: 50px;
+    width: 350px;
+}
+
+/* article - section */
+h1{
+    font-size: 3em;
+}
+
+section .authorship-information{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* article - table */
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+tr th:last-child{
+    width: 50%;
+}
+
+th{
+    background-color: #20a9e5;
+    text-align: left;
+}
+
+tr:nth-child(odd){
+    background-color: #b1e5f2;
+}
+
+/* footer */
+footer h3, footer div{
+    margin-bottom: 10px;
+}
+
+#related-article-1{
+    background-image: url(../img/monitor.jpg);
+}
+
+#related-article-2{
+    background-image: url(../img/graph.jpg);
+    object-fit: cover;
+
+}
+
+footer div{
+    width: 260px;
+    height: 200px;
+    background-size: cover;
+    padding: 10px;
+}
